@@ -1,0 +1,43 @@
+/* CSS used here will be applied after bootstrap.css */
+
+.affix {
+  padding:0px;
+  -webkit-transition:padding 0.2s linear;
+  -moz-transition:padding 0.2s linear;  
+  -o-transition:padding 0.2s linear;         
+  transition:padding 0.2s linear;
+
+}
+
+.affix-top {
+  padding-top:15px;
+  padding-bottom:15px;
+  -webkit-transition:padding 0.5s linear;
+  -moz-transition:padding 0.5s linear;  
+  -o-transition:padding 0.5s linear;         
+  transition:padding 0.5s linear;  
+}
+
+/* Brand */
+
+#brand {
+  font-size: 25px;
+
+}
+
+/* color of background of navbar */
+
+.navbar-inverse {
+    background-color: rgba( 0, 0, 0,0.5);
+    border: 0px;
+}
+
+
+/* color of the fonts in navbar */
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
